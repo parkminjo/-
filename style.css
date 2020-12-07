@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+}
+
+.menu-arrangement {
+    display: flex;
+    border-bottom: 3px solid gray;
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+    font-weight: 400;
+}
+  
+.menu a {
+    color: white;
+    padding: 20px;
+    margin-top: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.menu a:hover {
+    background-color: white;
+    color: brown;
+}
+
+.menu-right {
+    margin-left: 300px;
+    display: flex;
+    justify-content: right;
+    font-weight: 400;
+}
+  
+.menu-right a {
+    color: white;
+    padding: 20px;
+    margin-top: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.menu-right a:hover {
+    background-color: white;
+    color: brown;
+}
+
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.main {
+    color: white;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.draw {
+    width: 800px;
+    height: 600px;
+    padding: 5px;
+    margin-top: 30px;
+    border: 3px dimgrey;
+    border-style: dotted;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.draw h2 {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+  
+.navbar a {
+    color: white;
+    padding: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.navbar a:hover {
+    background-color: white;
+    color: brown;
+}
+
+
+.contents {
+    display: flex;
+}
+
+.content-item {
+    width:300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content-item-title {
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,.03);
+    text-align: center;
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid black;
+}
+
+.content-item-content1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.content-item-button {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-top: 30px;
+
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.footer {
+    height: 60;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background:white;
+    color: black;
+  }
